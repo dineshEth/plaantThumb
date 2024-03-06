@@ -13,13 +13,13 @@ const Home = () => {
       <div className= 'absolute w-[350px] right-[-110px]  sm:w-1/2   md:right-0 '>
         <img src={moneyPlant} alt=""  className='w-full object-contain' />
       </div>
-      <div className=' xl:w-[80%] w-full  mt-4 md:mt-12 z-10 flex flex-col items-start gap-y-4'>
-        <h1 className=' font text-[20px] sm:text-[24px] z-10 md:text-[72px] font-[900]'>
+      <div className=' xl:w-[80%] w-[90%]  mt-4 md:mt-12 z-10 flex flex-col items-start gap-y-4'>
+        <h1 className=' font text-[24px] sm:text-[48px] z-10 xl:text-[72px] font-[900]'>
             Gift us a 
             <span className='text-[#84CC16]'> Plant</span>:
             Your Gift, Our Promise to <span className='text-pink-600'>"Rejuvenate Nature"</span> 
         </h1>
-        <p className='font-IBM w-[80%] md:w-[60%] text-[14px] md:text-[32px] font-[100] text-light'>Join our green revolution! Gift money for plant purchases, contributing to the re-development of Mother Earth's natural beauty.
+        <p className='font-IBM w-[80%] xl:w-[60%] text-[14px] md:text-[28px] font-[100] text-light'>Join our green revolution! Gift money for plant purchases, contributing to the re-development of Mother Earth's natural beauty.
         </p>
         <Link to="products">
           <Button name="Explore More"/>
