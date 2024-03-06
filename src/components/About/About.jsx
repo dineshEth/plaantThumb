@@ -13,7 +13,7 @@ export const About = () => {
         <div className=''>
           <img src={profile} alt="" />
         </div>
-        <div className='w-full md:w-1/2'>
+        <div className='w-full md:w-1/2 flex flex-col justify-center md:justify-start md:items-start items-center text-center md:text-start'>
           <h1 className='font-white text-[42px] font-[600]'>Dinesh Prajapati</h1>
           <p className='font-light text-[#ffffff54] text-[24px] '>Founder & Leader</p>
           <p className='font-IBM font-[100]  text-[#fff] text-[20px]'>As the visionary leader of our green revolution, I spearhead a movement dedicated to fostering environmental stewardship and sustainability. With a passion for nurturing nature, I inspire others to join our mission of growth and preservation through plant gifting and care.</p>
