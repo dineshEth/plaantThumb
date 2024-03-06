@@ -1,32 +1,32 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link,NavLink } from 'react-router-dom'
 import { youtube, linkedIn, x, dribble, instagram } from '../../assets'
 
 const Footer = () => {
   return (
     <div className='bg-[#162A13] px-4'>
       <div className='flex flex-col gap-y-4 md:flex-row justify-between items-start '>
-        <div className='w-[300px] p-1'>
+        <div className='md:w-[300px] w-full p-1'>
           <h1 className='text-white font-IBM text-[18px]'><span className='text-[#84CC16]'>Go</span> Green</h1>
           <p className='bg-[#ffffff58] w-full h-[1px]' />
-          <p className=' text-light text-[14px] font-IBM font-[100] '>Our vision for the green revolution is to foster a global community of eco-enthusiasts dedicated to nurturing our planet's greenery. Through collective contributions, we aim to create lush environments, promote sustainability, and cultivate a deeper appreciation for the natural world.</p>
+          <p className=' text-light text-[18px] font-IBM font-[100] '>Our vision for the green revolution is to foster a global community of eco-enthusiasts dedicated to nurturing our planet's greenery. Through collective contributions, we aim to create lush environments, promote sustainability, and cultivate a deeper appreciation for the natural world.</p>
         </div>
-        <div className='w-[300px] p-1 '>
-          <h1 className='text-white font-IBM text-[18px]'> Links</h1>
+        <div className='md:w-[300px] w-full p-1 '>
+          <h1 className='text-[#84CC16] font-IBM text-[18px]'> Links</h1>
           <p className='bg-[#ffffff58] w-full h-[1px]' />
-          <ul className='flex flex-row gap-x-8 flex-wrap font-IBM font-[100]'>
-            <Link to=''> Home</Link>
-            <Link to='about'> About</Link>
-            <Link to='products'> Products</Link>
-            <Link to='contact'> Contact</Link>
+          <ul className='flex flex-row gap-x-8 text-[18px] flex-wrap font-IBM font-[100]'>
+          <NavLink to='' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> Home</NavLink>
+          <NavLink to='about' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> About</NavLink>
+          <NavLink to='products' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> Products</NavLink>
+          <NavLink to='contact' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> Contact</NavLink>
           </ul>  
         </div>
-        <div className='w-[300px] p-1 '>
-          <h1 className='text-white font-IBM text-[18px]'>Contact</h1>
+        <div className='md:w-[300px] w-full p-1 '>
+          <h1 className=' font-IBM text-[18px] text-[#84CC16]'>Contact</h1>
           <p className='bg-[#ffffff58] w-full h-[1px]' />
-          <p className='font-IBM font-[100]'>+91 6354xxx854</p>
-          <p className='font-IBM font-[100]'>info@greenthumb.com</p>
-          <p className='font-IBM font-[100]'>132, main street, Thalms-89 Bharat</p>
+          <p className='font-IBM font-[100] text-[18px]'>+91 6354xxx854</p>
+          <p className='font-IBM font-[100] text-[18px]'>info@greenthumb.com</p>
+          <p className='font-IBM font-[100] text-[18px]'>132, main street, Thalms-89 Bharat</p>
         </div>
       </div>
       

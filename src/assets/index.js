@@ -29,10 +29,13 @@ import leaf6 from './leaf7.jpg'
 import leaf7 from './leaf8.jpg'
 import leaf8 from './leaf9.jpg'
 
+import logo from './logo.png'
+
 export {
     instagram, x, youtube, dribble, linkedIn,
     collectionPlant1, collectionPlant2, collectionPlant3, collectionPlant4,
     plant1,plant2,plant3,plant4,plant5,plant6,
     leaf1,leaf2,leaf3,leaf4,leaf5,leaf6,leaf7,leaf8,
-    user1, user2, user3
+    user1, user2, user3,
+    logo
 }
