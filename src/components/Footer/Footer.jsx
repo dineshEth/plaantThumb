@@ -34,17 +34,17 @@ const Footer = () => {
         <Link to='https://www.instagram.com/cs_dinezh/'>
           <img src={instagram} alt="" />
         </Link>
-        <Link to="https://www.twitter.com/dinesh_eth." >
-          <img src={x} alt="" />
+        <Link to="https://www.x.com/dinesh_eth" >
+          <img src={x} alt="twitter" />
         </Link>
         <Link to="https://www.youtube.com/@dineshTechfi">
           <img src={youtube} alt="" />
         </Link>
-        <Link>
-          <img src={dribble} alt="" />
+        <Link to="https://dribbble.com/dineszux/">
+          <img src={dribble} alt="dribble" />
         </Link>
         <Link to="https://www.linkedin.com/in/dinesh-prajapati-26b1a7216/">
-          <img src={linkedIn} alt="" />
+          <img src={linkedIn} alt="dribble" />
         </Link>
       </div>
 
