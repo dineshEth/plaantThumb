@@ -9,10 +9,10 @@ import {collectionPlant1, collectionPlant2,collectionPlant3,collectionPlant4, le
 const Plants = () => {
  
   return (
-    <div className='w-full xl:w-[90%] mx-auto'>
+    <div className='w-full max-w-[1500px] xl:w-[90%] mx-auto'>
       <div className='mx-auto mt-24 w-[96%] xl:w-full flex  flex-wrap justify-between flex-col items-center md:flex-row '>
         <Card imageUrl={plantHome} collectionName="Home" link='homeproducts' />
-        <Card imageUrl={plantOffice} collectionName="Office" link='officeproducts' />
+        <Card imageUrl={plantOffice} collectionName="School" link='officeproducts' />
         <Card imageUrl={plantGarden} collectionName="Garden" link='gardenproducts' />
       </div>
       <div className='mx-4 my-4 w-[250px]'>

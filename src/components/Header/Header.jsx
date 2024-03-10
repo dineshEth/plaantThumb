@@ -13,10 +13,10 @@ const Header = () => {
           <img className='w-full h-full' src={logo} alt="" />
         </Link>
         <ul className='w-[300px] font-IBM hidden font-[100] md:flex flex-row justify-between items-center text-[18px]'>
-          <NavLink to='' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> Home</NavLink>
-          <NavLink to='about' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> About</NavLink>
-          <NavLink to='products' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> Products</NavLink>
-          <NavLink to='contact' className={({isActive})=>`${isActive ? 'text-[#84CC16]':'text-white'}`}> Contact</NavLink>
+          <NavLink to='' className={({isActive})=>`${isActive ? 'text-[#84CC16] border-b-2 border-[#84CC16] ':'text-white opacity-50'} animate-slide-in hover:opacity-100 `}> Home</NavLink>
+          <NavLink to='about' className={({isActive})=>`${isActive ? 'text-[#84CC16] border-b-2 border-[#84CC16]':'text-white opacity-50'} animate-slide-in hover:opacity-100`}> About</NavLink>
+          <NavLink to='products' className={({isActive})=>`${isActive ? 'text-[#84CC16] border-b-2 border-[#84CC16]':'text-white opacity-50'} animate-slide-in hover:opacity-100`}> Products</NavLink>
+          <NavLink to='contact' className={({isActive})=>`${isActive ? 'text-[#84CC16] border-b-2 border-[#84CC16]':'text-white opacity-50'} animate-slide-in hover:opacity-100`}> Contact</NavLink>
         </ul>
         <div className='hidden md:block'>
           <Button name="Gift Me" isAtcive={false}/>
