@@ -17,9 +17,9 @@ const Contact = () => {
         message
       };
 
-      const  TEMPLATE_ID = "template_ws3vyal";
-      const SERVICE_ID = "service_9him8on";
-      const PUBLIC_KEY = 'l02BzK90DjYdS3HH2'
+      const  TEMPLATE_ID = "";
+      const SERVICE_ID = "";
+      const PUBLIC_KEY = ''
       emailjs.send(SERVICE_ID, TEMPLATE_ID, template, {
         publicKey : PUBLIC_KEY
       }).then(
